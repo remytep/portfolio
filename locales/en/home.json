@@ -1,0 +1,14 @@
+{
+    "header_nav_aboutme" : "ABOUT",
+    "header_nav_mywork" : "WORK",
+    "contact" : "CONTACT",
+    "about_me_paragraph" : "IS A WEB DEVELOPER WHO IS PASSIONATE ABOUT CREATING REFRESHING USER NTERFACES THROUGH MOTION AND INTERACTIONS. HE IS CURRENTLY LOOKING FOR A COMPANY FOR A WORK/STUDY ARRANGEMENT OF 3 WEEKS AT THE COMPANY AND 1 WEEK AT SCHOOL.",
+    "more":"MORE",
+    "resume":"RESUMÉ",
+    "sprite-generator_en": "Sprite generator is a PHP script that allows the user to increase website performance by bundling images assets together thus decreasing the number of requests needed to load images. An Interactive CLI interface.",
+    "snapchat_en" : "This project is a snapchat clone made in React Native with the help of an in-house API that handles the back-end. Interface includes a fully functional application that will allow you to register as well as send and receive snaps from other users.",
+    "irc_en" : "An online chat service with rooms and private messenging made with Node.js/Express and React (with socket.io).",
+    "spotify_en" : "Online application to discover new artists and listen to their albums. Made with a symfony API and React for the front-end.",
+    "cinema_en": "Website to manage users and customers of a cinema theater. Back is handled with PHP and front-end with vanilla JS"
+
+}
