@@ -22,15 +22,9 @@ function ProjectsList() {
     );
   }; */
   return (
-    <article
-      className="flex flex-col snap-y snap-mandatory overflow-y-scroll"
-      id="projects"
-    >
+    <article className="flex flex-col" id="projects">
       {data.map((project) => (
-        <section
-          key={project.slug}
-          className="h-screen snap-always snap-start relative"
-        >
+        <section key={project.slug} className="h-screen relative">
           <Image
             src={project.cover}
             alt={project.description}
