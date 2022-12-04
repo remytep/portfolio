@@ -52,3 +52,9 @@
     }
   }
 }
+
+@media only screen and (max-width: 700px) {
+  body .cursor-wrapper {
+    display: "none";
+  }
+}
