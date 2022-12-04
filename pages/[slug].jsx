@@ -42,7 +42,7 @@ function Project({ project }) {
           src={firstMedia.url}
         />
         <div className="flex flex-col py-4 md:py-6 xl:py-10 mx-2 md:mx-6 lg:mx-10">
-          <h1 className="text-6xl lg:text-8xl pt-4 font-SeawaveAlt text-center ">
+          <h1 className="text-6xl lg:text-8xl pt-4 font-SeawaveAlt text-center">
             {project.title}
           </h1>
           <div className="font-SeawaveAlt text-2xl lg:text-4xl text-center">
@@ -63,7 +63,7 @@ function Project({ project }) {
               </svg>
             ))}
           </div>
-          <div className="font-NeutralFace py-1 md:py-2 xl:py-4 text-2xl lg:text-4xl text-justify w-full">
+          <div className="font-NeutralFace py-1 md:py-2 xl:py-4 text-2xl lg:text-4xl md:text-justify w-full">
             {description}
           </div>
           <Link href={project.link} className="flex justify-center">
