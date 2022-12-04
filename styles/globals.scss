@@ -61,19 +61,16 @@ body {
 body {
   min-height: 100vh;
   min-height: -webkit-fill-available;
-  min-height: stretch;
 }
 
 html {
   min-height: -webkit-fill-available;
-  min-height: stretch;
 }
 
 .mobile-screen {
   min-height: 100vh;
   min-height: -moz-available;
   min-height: -webkit-fill-available;
-  min-height: stretch;
 }
 
 a {
