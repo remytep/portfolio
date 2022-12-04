@@ -44,6 +44,11 @@
     width: 4.5rem;
   }
 }
+*,
+html,
+body {
+  cursor: none;
+}
 html,
 body {
   padding: 0;

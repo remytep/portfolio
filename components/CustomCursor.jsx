@@ -14,9 +14,14 @@ const CustomCursor = () => {
   });
 
   React.useEffect(() => {
+    document.addEventListener("mouseenter", () => {
+      document.querySelector(".cursor-wrapper").style.display = "block";
+    });
+    document.addEventListener("mouseleave", () => {
+      document.querySelector(".cursor-wrapper").style.display = "none";
+    });
     document.addEventListener("mousemove", (event) => {
       const { clientX, clientY } = event;
-
       const mouseX = clientX;
       const mouseY = clientY;
 
@@ -66,7 +71,7 @@ const CustomCursor = () => {
     followMouse();
   }, []);
   return (
-    <div className={`cursor-wrapper` + " z-100"}>
+    <div className={`cursor-wrapper` + " z-100 hidden"}>
       <div className="main-cursor " ref={mainCursor}>
         <div className="main-cursor-background"></div>
       </div>
