@@ -82,14 +82,14 @@ function Project({ project }) {
             </Link>
           </div>
         </div>
-        {leftMedia.map((image, index) => (
+        {/*         {leftMedia.map((image, index) => (
           <img
             key={index}
             className="object-cover object-center"
             alt={project.description}
             src={image.url}
           />
-        ))}
+        ))} */}
       </motion.div>
     </Layout>
   );
