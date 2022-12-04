@@ -10,7 +10,7 @@ export let data = [
     link: "http://github.com/tepremy",
   },
   {
-    slug: "snapchat",
+    slug: "mtn-snaps",
     title: "MTN SNAPS",
     cover: "/static/images/projects/snapchat.jpg",
     description:
@@ -31,7 +31,7 @@ export let data = [
     link: "http://github.com/tepremy",
   },
   {
-    slug: "spotify",
+    slug: "spotitech",
     title: "SPOTITECH",
     cover: "/static/images/projects/spotify.jpg",
     description: "description",

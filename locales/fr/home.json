@@ -6,8 +6,8 @@
     "more":"PLUS",
     "resume":"C.V",
     "sprite-generator_fr" : "Sprite generator est un programme PHP qui permet à l'utilisateur de générer un template sprite à partir de plusieurs images et donc de réduire le nombre de requêtes pour charger les images d'un site internet. Interface réalisée en CLI interatif avec PHP.",
-    "snapchat_fr" : "Ce projet est un clone de l'application Snapchat réalisé avec une API qui gère toute la partie Back. Cette application est totalement fonctionnelle et vous permet de vous enregistrer sur le service et donc d'envoyer et recevoir des photos des autres utilisateurs.",
-    "irc_fr" : "Service de messagerie en ligne avec channels et messagerie privée réalisée avec Node.js/Express et Socket.io pour le back ainsi que React.js pour le Front.",
-    "spotify_fr" : "Application en ligne pour découvrir la discographie de certains artistes et écouter leurs morceaux. Réalisé en React avec une API Symfony pour le back.",
+    "mtn-snaps_fr" : "Ce projet est un clone de l'application Snapchat réalisé avec une API qui gère toute la partie Back. Cette application est totalement fonctionnelle et vous permet de vous enregistrer sur le service et donc d'envoyer et recevoir des photos des autres utilisateurs.",
+    "ocr_fr" : "Service de messagerie en ligne avec channels et messagerie privée réalisée avec Node.js/Express et Socket.io pour le back ainsi que React.js pour le Front.",
+    "spotitech_fr" : "Application en ligne pour découvrir la discographie de certains artistes et écouter leurs morceaux. Réalisé en React avec une API Symfony pour le back.",
     "cinema_fr": "Site de gestion des membres et clients d'un cinéma réalisé en PHP pour le back et Vanilla JS en front."
 }
