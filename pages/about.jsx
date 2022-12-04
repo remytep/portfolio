@@ -5,14 +5,14 @@ import { motion, AnimatePresence } from "framer-motion";
 // Variant
 const aboutVariant = {
   hidden: {
-    x: "100vw",
+    y: "-100vh",
   },
   show: {
-    x: 0,
+    y: 0,
     transition: { ease: [0.6, 0.01, -0.05, 0.95], duration: 1, delay: -2 },
   },
   exit: {
-    x: "100vw",
+    y: "100vh",
     transition: { ease: [0.6, 0.01, -0.05, 0.95], duration: 1 },
   },
 };
