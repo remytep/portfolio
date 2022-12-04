@@ -58,7 +58,7 @@ function About({ apkey }) {
           <h1 className="text-6xl lg:text-8xl font-SeawaveAlt text-left">
             REMY
           </h1>
-          <p className="font-SeawaveAlt text-justify text-2xl sm:text-3xl 2xl:text-4xl">
+          <p className="font-NeutralFace text-justify text-2xl sm:text-3xl 2xl:text-4xl">
             {t("about_me_paragraph")}
           </p>
           <div className="flex flex-col items-end">
