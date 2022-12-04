@@ -49,7 +49,7 @@ function Project({ project }) {
             <div className="font-SeawaveAlt text-2xl lg:text-4xl text-center">
               {project.date}
             </div>
-            <div className="flex py-4 justify-center flex-1">
+            <div className="flex py-1 md:py-2 xl:py-4 justify-center flex-1">
               {project.stack.map((lang) => (
                 <svg
                   key={lang}
@@ -58,13 +58,13 @@ function Project({ project }) {
                   height="64"
                   width="64"
                   fill="currentColor"
-                  className="stacksvg p-1"
+                  className="p-1"
                 >
                   <Icon language={lang} />
                 </svg>
               ))}
             </div>
-            <div className="font-NeutralFace py-4 text-2xl lg:text-4xl text-justify flex-1 w-full">
+            <div className="font-NeutralFace py-1 md:py-2 xl:py-4 text-2xl lg:text-4xl text-justify flex-1 w-full">
               {description}
             </div>
             <Link href={project.link} className="flex justify-center">
