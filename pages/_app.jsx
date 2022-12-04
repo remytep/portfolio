@@ -18,7 +18,7 @@ export default function App({ Component, pageProps, router }) {
       ) : (
         <ThemeProvider key="theme" attribute="class">
           <Head>
-            <title>Remy Tep</title>
+            <title>REMY</title>
           </Head>
           <Navbar />
           <AnimatePresence

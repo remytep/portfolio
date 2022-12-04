@@ -12,14 +12,15 @@ const footerVariant = {
   },
   show: {
     y: 0,
-    transition: { ease: [0.6, 0.01, -0.05, 0.95], duration: 1, delay: 1 },
+    transition: { ease: [0.6, 0.01, -0.05, 0.95], duration: 1, delay: 0.5 },
   },
 };
 
 function Footer() {
   const [mounted, setMounted] = useState(false);
   const { systemTheme, theme, setTheme } = useTheme();
-  const { locale } = useRouter();
+  const { locale, query } = useRouter();
+  const slug = query.slug;
   const renderThemeChanger = () => {
     const currentTheme = theme === "system" ? systemTheme : theme;
     if (currentTheme === "dark") {
@@ -77,7 +78,7 @@ function Footer() {
     >
       <div className="align-middle text-sm sm:text-md lg:text-lg">
         <Link
-          href=""
+          href={slug ? slug : ""}
           locale="en"
           className={` ${
             locale === "en"
@@ -89,7 +90,7 @@ function Footer() {
         </Link>
         <span className="mx-1 text-lg lg:text-2xl">|</span>
         <Link
-          href=""
+          href={slug ? slug : ""}
           locale="fr"
           className={`${
             locale === "fr"

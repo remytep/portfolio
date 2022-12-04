@@ -54,7 +54,7 @@ const Loader = ({ setLoading }) => {
       initial="hidden"
       animate="show"
       exit="exit"
-      className="flex flex-col 2xl:flex-row h-screen w-screen justify-center 2xl:justify-evenly items-center text-6xl lg:text-9xl font-SeawaveAlt"
+      className="flex flex-col 2xl:flex-row h-screen w-screen justify-center items-center text-6xl lg:text-9xl font-SeawaveAlt"
       onAnimationComplete={() =>
         setTimeout(() => {
           setLoading(false);
@@ -63,7 +63,7 @@ const Loader = ({ setLoading }) => {
     >
       {name.map((word, index) => {
         return (
-          <div key={word + index}>
+          <div key={word + index} className="mx-4">
             {word.split("").map((char, index) => (
               <motion.span
                 className="inline-block"

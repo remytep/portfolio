@@ -7,17 +7,6 @@ import ProjectsList from "../components/ProjectList";
 import About from "../components/About";
 // Variant
 const homeVariant = {
-  /*   hidden: {
-    opacity: 0,
-  },
-  show: {
-    opacity: 1,
-    transition: { ease: [0.6, 0.01, -0.05, 0.95], delay: 1, duration: 0.2 },
-  },
-  exit: {
-    opacity: 0,
-    transition: { ease: [0.6, 0.01, -0.05, 0.95], delay: 1, duration: 0.2 },
-  }, */
   hidden: {
     y: "100vh",
   },

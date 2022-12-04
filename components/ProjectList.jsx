@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import { motion } from "framer-motion";
 import { data } from "../utils/data";
@@ -8,7 +9,7 @@ import { data } from "../utils/data";
 
 function ProjectsList() {
   const router = useRouter();
-  const handleRouteChange = (newRoute) => {
+  /*   const handleRouteChange = (newRoute) => {
     router.push(
       {
         pathname: `/${newRoute}`,
@@ -19,7 +20,7 @@ function ProjectsList() {
       },
       `/${newRoute}`
     );
-  };
+  }; */
   return (
     <article
       className="flex flex-col snap-y snap-mandatory overflow-y-scroll"
@@ -37,12 +38,23 @@ function ProjectsList() {
             fill
             className="object-cover object-center"
           />
-          <div
-            onClick={(e) => handleRouteChange(project.slug)}
-            className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 font-SeawaveAlt text-center text-5xl md:text-7xl lg:text-8xl 2xl:text-9xl backdrop-blur-md backdrop-grayscale block"
+          <Link
+            href={
+              ({
+                pathname: `/${project.slug}`,
+                query: {
+                  slug: project.slug,
+                  locale: router.locale,
+                },
+              },
+              `/${project.slug}`)
+            }
+            /*   onClick={(e) => handleRouteChange(project.slug)} */
+            scroll={false}
+            className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 font-SeawaveAlt text-center text-5xl md:text-7xl lg:text-8xl 2xl:text-9xl backdrop-blur-sm backdrop-grayscale bloc p-2"
           >
             {project.title}
-          </div>
+          </Link>
         </section>
       ))}
     </article>

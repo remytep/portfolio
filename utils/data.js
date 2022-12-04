@@ -4,7 +4,11 @@ export let data = [
     title: "SPRITE GENERATOR",
     cover: "/static/images/projects/sprite.jpg",
     description: "description",
-    medias: [{ url: "/static/images/projects/sprite.jpg" }],
+    medias: [
+      { url: "/static/images/projects/sprite.jpg" },
+      { url: "/static/images/projects/sprite.jpg" },
+      { url: "/static/images/projects/sprite.jpg" },
+    ],
     stack: ["Php"],
     link: "http://github.com/tepremy",
   },
