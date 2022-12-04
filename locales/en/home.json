@@ -2,7 +2,7 @@
     "header_nav_aboutme" : "ABOUT",
     "header_nav_mywork" : "WORK",
     "contact" : "CONTACT",
-    "about_me_paragraph" : "IS A WEB DEVELOPER WHO IS PASSIONATE ABOUT CREATING REFRESHING USER NTERFACES THROUGH MOTION AND INTERACTIONS. HE IS CURRENTLY LOOKING FOR A COMPANY FOR A WORK/STUDY ARRANGEMENT OF 3 WEEKS AT THE COMPANY AND 1 WEEK AT SCHOOL.",
+    "about_me_paragraph" : "IS A WEB DEVELOPER WHO IS PASSIONATE ABOUT CREATING REFRESHING USER NTERFACES THROUGH MOTION AND INTERACTIONS. CURRENTLY LOOKING FOR A WORK/STUDY JOB AS A DEVELOPER.",
     "more":"MORE",
     "resume":"RESUMÉ",
     "sprite-generator_en": "Sprite generator is a PHP script that allows the user to increase website performance by bundling images assets together thus decreasing the number of requests needed to load images. Use it with its interactive PHP CLI interface.",

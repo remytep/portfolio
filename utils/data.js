@@ -5,11 +5,7 @@ export let data = [
     cover: "/static/images/projects/sprite.jpg",
     description: "description",
     date: "May 2022",
-    medias: [
-      { url: "/static/images/projects/sprite.jpg" },
-      { url: "/static/images/projects/sprite.jpg" },
-      { url: "/static/images/projects/sprite.jpg" },
-    ],
+    medias: [{ url: "/static/images/projects/sprite.jpg" }],
     stack: ["Php"],
     link: "http://github.com/tepremy",
   },
@@ -20,17 +16,12 @@ export let data = [
     description:
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
     date: "September 2022",
-    medias: [
-      { url: "/static/images/projects/snapchat.jpg" },
-      { url: "/static/images/projects/snapchat.jpg" },
-      { url: "/static/images/projects/snapchat.jpg" },
-      { url: "/static/images/projects/snapchat.jpg" },
-    ],
+    medias: [{ url: "/static/images/projects/snapchat.jpg" }],
     stack: ["ReactJS"],
     link: "http://github.com/tepremy",
   },
   {
-    slug: "irc",
+    slug: "ocr",
     title: "OCR",
     cover: "/static/images/projects/irc.jpg",
     description: "description",
