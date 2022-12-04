@@ -74,3 +74,11 @@ a {
   width: auto;
   max-width: 100%;
 }
+
+.stacksvg {
+  @apply w-16 xl:w-20;
+}
+
+.contactsvg {
+  @apply w-12 xl:w-16;
+}

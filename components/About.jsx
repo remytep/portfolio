@@ -58,7 +58,7 @@ function About({ apkey }) {
           <h1 className="text-6xl lg:text-8xl font-SeawaveAlt text-left">
             REMY
           </h1>
-          <p className="text-justify text-2xl 2xl:text-4xl">
+          <p className="text-justify text-2xl sm:text-3xl 2xl:text-4xl">
             {t("about_me_paragraph")}
           </p>
           <div className="flex flex-col items-end">
@@ -74,8 +74,6 @@ function About({ apkey }) {
                 variants={stackVariant}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 128 128"
-                height="64"
-                width="64"
                 fill="currentColor"
                 className="stacksvg p-1 javascript"
               >
@@ -86,8 +84,6 @@ function About({ apkey }) {
                 variants={stackVariant}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 128 128"
-                height="64"
-                width="64"
                 fill="currentColor"
                 className="stacksvg p-1 react"
               >
@@ -101,8 +97,6 @@ function About({ apkey }) {
                 variants={stackVariant}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 128 128"
-                height="64"
-                width="64"
                 fill="currentColor"
                 className="stacksvg p-1 next"
               >
@@ -113,10 +107,8 @@ function About({ apkey }) {
                 variants={stackVariant}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 128 128"
-                height="64"
-                width="64"
                 fill="currentColor"
-                className="stacksvg p-1 express"
+                className="stacksvg p-1 express w-16"
               >
                 <path d="M126.67 98.44c-4.56 1.16-7.38.05-9.91-3.75-5.68-8.51-11.95-16.63-18-24.9-.78-1.07-1.59-2.12-2.6-3.45C89 76 81.85 85.2 75.14 94.77c-2.4 3.42-4.92 4.91-9.4 3.7l26.92-36.13L67.6 29.71c4.31-.84 7.29-.41 9.93 3.45 5.83 8.52 12.26 16.63 18.67 25.21 6.45-8.55 12.8-16.67 18.8-25.11 2.41-3.42 5-4.72 9.33-3.46-3.28 4.35-6.49 8.63-9.72 12.88-4.36 5.73-8.64 11.53-13.16 17.14-1.61 2-1.35 3.3.09 5.19C109.9 76 118.16 87.1 126.67 98.44zM1.33 61.74c.72-3.61 1.2-7.29 2.2-10.83 6-21.43 30.6-30.34 47.5-17.06C60.93 41.64 63.39 52.62 62.9 65H7.1c-.84 22.21 15.15 35.62 35.53 28.78 7.15-2.4 11.36-8 13.47-15 1.07-3.51 2.84-4.06 6.14-3.06-1.69 8.76-5.52 16.08-13.52 20.66-12 6.86-29.13 4.64-38.14-4.89C5.26 85.89 3 78.92 2 71.39c-.15-1.2-.46-2.38-.7-3.57q.03-3.04.03-6.08zm5.87-1.49h50.43c-.33-16.06-10.33-27.47-24-27.57-15-.12-25.78 11.02-26.43 27.57z"></path>
               </motion.svg>
@@ -125,8 +117,6 @@ function About({ apkey }) {
                 variants={stackVariant}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 128 128"
-                height="64"
-                width="64"
                 fill="currentColor"
                 className="stacksvg p-1 node"
               >
@@ -145,8 +135,6 @@ function About({ apkey }) {
                 variants={stackVariant}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 128 128"
-                height="64"
-                width="64"
                 fill="currentColor"
                 className="stacksvg p-1 php"
               >
@@ -156,8 +144,6 @@ function About({ apkey }) {
                 variants={stackVariant}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 128 128"
-                height="64"
-                width="64"
                 fill="currentColor"
                 className="stacksvg p-1 symfony"
               >
@@ -167,8 +153,6 @@ function About({ apkey }) {
                 variants={stackVariant}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 128 128"
-                height="64"
-                width="64"
                 fill="currentColor"
                 className="stacksvg p-1 laravel"
               >
@@ -180,8 +164,6 @@ function About({ apkey }) {
                 variants={stackVariant}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 128 128"
-                height="64"
-                width="64"
                 fill="currentColor"
                 className="stacksvg p-1 mysql"
               >
@@ -192,8 +174,6 @@ function About({ apkey }) {
                 variants={stackVariant}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 128 128"
-                height="64"
-                width="64"
                 fill="currentColor"
                 className="stacksvg p-1 mongodb"
               >
@@ -212,8 +192,6 @@ function About({ apkey }) {
                 variants={stackVariant}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 128 128"
-                height="64"
-                width="64"
                 fill="currentColor"
                 className="stacksvg p-1 tailwind"
               >
@@ -224,8 +202,6 @@ function About({ apkey }) {
                 variants={stackVariant}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 128 128"
-                height="64"
-                width="64"
                 fill="currentColor"
                 className="stacksvg p-1 bootstrap"
               >
@@ -236,8 +212,6 @@ function About({ apkey }) {
                 variants={stackVariant}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 128 128"
-                height="64"
-                width="64"
                 fill="currentColor"
                 className="stacksvg p-1 sass"
               >
@@ -247,8 +221,6 @@ function About({ apkey }) {
                 variants={stackVariant}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 128 128"
-                height="64"
-                width="64"
                 fill="currentColor"
                 className="stacksvg p-1 figma"
               >
@@ -274,10 +246,8 @@ function About({ apkey }) {
                 <motion.svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 128 128"
-                  height="48"
-                  width="48"
                   fill="currentColor"
-                  className="stacksvg p-1 github"
+                  className="contactsvg p-1 github"
                 >
                   <g>
                     <path d="M64 5.103c-33.347 0-60.388 27.035-60.388 60.388 0 26.682 17.303 49.317 41.297 57.303 3.017.56 4.125-1.31 4.125-2.905 0-1.44-.056-6.197-.082-11.243-16.8 3.653-20.345-7.125-20.345-7.125-2.747-6.98-6.705-8.836-6.705-8.836-5.48-3.748.413-3.67.413-3.67 6.063.425 9.257 6.223 9.257 6.223 5.386 9.23 14.127 6.562 17.573 5.02.542-3.903 2.107-6.568 3.834-8.076-13.413-1.525-27.514-6.704-27.514-29.843 0-6.593 2.36-11.98 6.223-16.21-.628-1.52-2.695-7.662.584-15.98 0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033 11.526-7.813 16.59-6.19 16.59-6.19 3.287 8.317 1.22 14.46.593 15.98 3.872 4.23 6.215 9.617 6.215 16.21 0 23.194-14.127 28.3-27.574 29.796 2.167 1.874 4.097 5.55 4.097 11.183 0 8.08-.07 14.583-.07 16.572 0 1.607 1.088 3.49 4.148 2.897 23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"></path>
@@ -291,10 +261,8 @@ function About({ apkey }) {
                 <motion.svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 128 128"
-                  height="48"
-                  width="48"
                   fill="currentColor"
-                  className="stacksvg p-1 linkedin"
+                  className="contactsvg p-1 linkedin"
                 >
                   <path d="M116 3H12a8.91 8.91 0 00-9 8.8v104.42a8.91 8.91 0 009 8.78h104a8.93 8.93 0 009-8.81V11.77A8.93 8.93 0 00116 3zM39.17 107H21.06V48.73h18.11zm-9-66.21a10.5 10.5 0 1110.49-10.5 10.5 10.5 0 01-10.54 10.48zM107 107H88.89V78.65c0-6.75-.12-15.44-9.41-15.44s-10.87 7.36-10.87 15V107H50.53V48.73h17.36v8h.24c2.42-4.58 8.32-9.41 17.13-9.41C103.6 47.28 107 59.35 107 75z"></path>
                 </motion.svg>
@@ -311,10 +279,8 @@ function About({ apkey }) {
                 <motion.svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
-                  height="48"
-                  width="48"
                   fill="currentColor"
-                  className="stacksvg p-1 resume"
+                  className="contactsvg p-1 resume"
                   fillRule="evenodd"
                 >
                   <path d="M3 24h19v-23h-1v22h-18v1zm17-24h-18v22h18v-22zm-1 1h-16v20h16v-20zm-2 16h-12v1h12v-1zm0-3h-12v1h12v-1zm0-3h-12v1h12v-1zm-7.348-3.863l.948.3c-.145.529-.387.922-.725 1.178-.338.257-.767.385-1.287.385-.643 0-1.171-.22-1.585-.659-.414-.439-.621-1.04-.621-1.802 0-.806.208-1.432.624-1.878.416-.446.963-.669 1.642-.669.592 0 1.073.175 1.443.525.221.207.386.505.496.892l-.968.231c-.057-.251-.177-.449-.358-.594-.182-.146-.403-.218-.663-.218-.359 0-.65.129-.874.386-.223.258-.335.675-.335 1.252 0 .613.11 1.049.331 1.308.22.26.506.39.858.39.26 0 .484-.082.671-.248.187-.165.322-.425.403-.779zm3.023 1.78l-1.731-4.842h1.06l1.226 3.584 1.186-3.584h1.037l-1.734 4.842h-1.044z" />
@@ -327,8 +293,7 @@ function About({ apkey }) {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  height="48"
-                  width="48"
+                  className="contactsvg p-1 mail"
                 >
                   <path d="M5.478 5.559A1.5 1.5 0 016.912 4.5H9A.75.75 0 009 3H6.912a3 3 0 00-2.868 2.118l-2.411 7.838a3 3 0 00-.133.882V18a3 3 0 003 3h15a3 3 0 003-3v-4.162c0-.299-.045-.596-.133-.882l-2.412-7.838A3 3 0 0017.088 3H15a.75.75 0 000 1.5h2.088a1.5 1.5 0 011.434 1.059l2.213 7.191H17.89a3 3 0 00-2.684 1.658l-.256.513a1.5 1.5 0 01-1.342.829h-3.218a1.5 1.5 0 01-1.342-.83l-.256-.512a3 3 0 00-2.684-1.658H3.265l2.213-7.191z" />
                   <path d="M12 2.25a.75.75 0 01.75.75v6.44l1.72-1.72a.75.75 0 111.06 1.06l-3 3a.75.75 0 01-1.06 0l-3-3a.75.75 0 011.06-1.06l1.72 1.72V3a.75.75 0 01.75-.75z" />
