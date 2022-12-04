@@ -14,19 +14,21 @@ const programmingStack = {
     opacity: 1,
     transition: {
       staggerChildren: 0.25,
-      duration: 1.2,
+      staggerDirection: -1,
+      ease: [0.6, 0.01, -0.05, 0.95],
+      duration: 1,
     },
   },
 };
 const stackVariant = {
   hidden: {
     opacity: 0,
-    x: "200%",
+    y: "100%",
     rotateX: -45,
   },
   show: {
     opacity: 1,
-    x: 0,
+    y: 0,
     rotateX: 0,
     transition: {
       ease: [0.6, 0.01, -0.05, 0.95],
@@ -63,7 +65,8 @@ function About({ apkey }) {
             <motion.div
               variants={programmingStack}
               initial="hidden"
-              animate="show"
+              animate="hidden"
+              whileInView="show"
               exit="exit"
               className="flex"
             >
@@ -130,7 +133,14 @@ function About({ apkey }) {
                 <path d="M112.678 30.334L68.535 4.729c-2.781-1.584-6.424-1.584-9.227 0L14.82 30.334C11.951 31.985 10 35.088 10 38.407v51.142c0 3.319 1.992 6.423 4.862 8.083l11.729 6.688c5.627 2.772 7.186 2.772 9.746 2.772 8.334 0 12.662-5.039 12.662-13.828v-50.49C49 42.061 49.445 41 48.744 41h-5.622C42.41 41 41 42.061 41 42.773v50.49c0 3.896-3.616 7.773-10.202 4.48L18.676 90.73c-.422-.23-.676-.693-.676-1.181V38.407c0-.482.463-.966.891-1.213l44.378-25.561a1.508 1.508 0 011.415 0l43.963 25.555c.421.253.354.722.354 1.219v51.142c0 .488.092.963-.323 1.198l-44.133 25.576c-.378.227-.87.227-1.285 0l-11.317-6.749c-.341-.198-.752-.269-1.08-.086-3.145 1.783-3.729 2.02-6.679 3.043-.727.253-1.799.692.408 1.929l14.798 8.754a9.29 9.29 0 004.647 1.246 9.303 9.303 0 004.666-1.246l43.976-25.582c2.871-1.672 4.322-4.764 4.322-8.083V38.407c-.001-3.319-1.452-6.414-4.323-8.073zM77.727 81.445c-11.727 0-14.309-3.235-15.17-9.066-.102-.628-.634-1.379-1.274-1.379h-5.73c-.709 0-1.28.86-1.28 1.566 0 7.466 4.06 16.512 23.454 16.512 14.038 0 22.088-5.455 22.088-15.109 0-9.572-6.467-12.084-20.082-13.886-13.762-1.819-15.16-2.738-15.16-5.962 0-2.658 1.184-6.203 11.374-6.203 9.104 0 12.46 1.954 13.841 8.091.119.577.646.991 1.241.991h5.754c.354 0 .691-.143.939-.396.241-.272.367-.613.336-.979-.893-10.569-7.913-15.494-22.112-15.494-12.632 0-20.166 5.334-20.166 14.275 0 9.698 7.497 12.378 19.622 13.577 14.505 1.422 15.633 3.542 15.633 6.395 0 4.956-3.978 7.067-13.308 7.067z"></path>
               </motion.svg>
             </motion.div>
-            <motion.div variants={programmingStack} className="flex">
+            <motion.div
+              variants={programmingStack}
+              initial="hidden"
+              animate="hidden"
+              whileInView="show"
+              exit="exit"
+              className="flex"
+            >
               <motion.svg
                 variants={stackVariant}
                 xmlns="http://www.w3.org/2000/svg"
@@ -190,7 +200,14 @@ function About({ apkey }) {
                 <path d="M90.491 57.282c-.37-4.79-1.496-9.409-3.062-13.934-3.244-10.104-8.45-19.046-15.783-26.74-1.854-1.946-3.916-3.729-5.209-6.151-.818-1.532-1.597-3.085-2.394-4.629l-.505-1.273c-.085.292-.139.396-.142.501-.065 2.517-1.491 4.224-3.267 5.817-1.997 1.793-3.856 3.739-5.775 5.618l-5.901 7.763c-1.592 2.925-3.182 5.85-4.772 8.775l-3.19 8.617-.096.134c-1.756 5.768-2.622 11.698-3.048 17.688-.16 2.251.022 4.535.149 6.798.181 3.235.743 6.415 1.586 9.545 3.062 11.372 9.276 20.805 17.771 28.819 1.579 1.489 3.199 2.843 4.847 4.26.282-.965.507-1.93.763-2.895.256-.961.515-1.917.688-2.881-.174.964-.369 1.92-.562 2.881l-.826 2.895.738 2.501.684 3.884.326 4.053c-.003.823-.036 1.648.014 2.47.012.21.288.404.442.606l1.376.483 1.434.558-.246-3.603-.011-3.548.495-5.405.359-1.177 1.027-1.82c1.268-1.02 2.629-1.946 3.784-3.081 2.09-2.054 4.175-4.134 6.045-6.383a47.846 47.846 0 006.191-9.516c1.122-2.284 2.178-4.614 3.052-7.001.77-2.104 1.247-4.315 1.854-6.479.054-.156.126-.309.16-.468 1.254-5.841 1.465-11.741 1.004-17.682zm-23.599 49.375l-.805-1.763.805 1.763 1.183 1.01-1.183-1.01z"></path>
               </motion.svg>
             </motion.div>
-            <motion.div variants={programmingStack} className="flex">
+            <motion.div
+              variants={programmingStack}
+              initial="hidden"
+              animate="hidden"
+              whileInView="show"
+              exit="exit"
+              className="flex"
+            >
               <motion.svg
                 variants={stackVariant}
                 xmlns="http://www.w3.org/2000/svg"
@@ -241,10 +258,17 @@ function About({ apkey }) {
           </div>
         </div>
         <div id="contact" className="flex flex-col justify-end">
-          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-SeawaveAlt text-right">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-SeawaveAlt text-right">
             {t("contact")}
           </h1>
-          <motion.div variants={programmingStack} className="flex justify-end">
+          <motion.div
+            variants={programmingStack}
+            initial="hidden"
+            animate="hidden"
+            whileInView="show"
+            exit="exit"
+            className="flex justify-end"
+          >
             <motion.div variants={stackVariant}>
               <Link href="https://github.com/tepremy/">
                 <motion.svg

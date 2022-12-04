@@ -2,9 +2,16 @@ import React, { useEffect } from "react";
 
 import { motion } from "framer-motion";
 
-function Layout({ variant, children }) {
+function Layout({ variant, className, children }) {
   return (
-    <motion.main variants={variant} initial="hidden" animate="show" exit="exit">
+    <motion.main
+      layout
+      variants={variant}
+      initial="hidden"
+      animate="show"
+      exit="exit"
+      className={`${className}` + " w-screen"}
+    >
       {children}
     </motion.main>
   );

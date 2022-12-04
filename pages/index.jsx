@@ -8,7 +8,7 @@ import About from "../components/About";
 // Variant
 const homeVariant = {
   hidden: {
-    y: "100vh",
+    x: "-100vw",
   },
   show: {
     y: 0,
@@ -23,9 +23,9 @@ const homeVariant = {
 
 export default function Home() {
   return (
-    <Layout variant={homeVariant}>
+    <Layout variant={homeVariant} className="">
       <ProjectsList />
-      {/*       <About apkey={"home"} /> */}
+      <About apkey={"home"} />
     </Layout>
   );
 }

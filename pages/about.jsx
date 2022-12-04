@@ -5,21 +5,21 @@ import { motion, AnimatePresence } from "framer-motion";
 // Variant
 const aboutVariant = {
   hidden: {
-    y: "-100vh",
+    y: "100%",
   },
   show: {
     y: 0,
     transition: { ease: [0.6, 0.01, -0.05, 0.95], duration: 1 },
   },
   exit: {
-    y: "100vh",
+    y: "100%",
     transition: { ease: [0.6, 0.01, -0.05, 0.95], duration: 1 },
   },
 };
 
 function AboutPage() {
   return (
-    <Layout variant={aboutVariant}>
+    <Layout variant={aboutVariant} className="h-screen">
       <About apkey={"about"} />
     </Layout>
   );

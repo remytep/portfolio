@@ -2,7 +2,7 @@
     "header_nav_aboutme" : "À PROPOS",
     "header_nav_mywork" : "PROJETS",
     "contact" : "CONTACT",
-    "about_me_paragraph" : "EST UN DÉVELOPPEUR WEB QUI ASPIRE À CRÉER DES INTERFACES INNOVANTES GRÂCE À DES INTERACTIONS ET ANIMATIONS COMPLEXES. ACTUELLEMENT À LA RECHERCHE D'UNE ALTERNANCE EN DÉVELOPPEMENT WEB (RYTHME 3 SEMAINES EN ENTRPRISE / 1 SEMAINE EN COURS)",    
+    "about_me_paragraph" : "EST UN DÉVELOPPEUR WEB QUI ASPIRE À CRÉER DES INTERFACES INNOVANTES GRÂCE À DES INTERACTIONS ET ANIMATIONS COMPLEXES. ACTUELLEMENT À LA RECHERCHE D'UNE ALTERNANCE EN DÉVELOPPEMENT WEB (3 SEMAINES/1 SEMAINE)",    
     "more":"PLUS",
     "resume":"C.V",
     "sprite-generator_fr" : "Sprite generator est un programme PHP qui permet à l'utilisateur de créer un sprite à partir de plusieurs images et donc de réduire le nombre de requêtes pour charger les images d'un site internet.",
