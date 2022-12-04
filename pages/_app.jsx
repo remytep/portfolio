@@ -10,13 +10,11 @@ import Footer from "../components/layout/Footer";
 
 export default function App({ Component, pageProps, router }) {
   const [loading, setLoading] = useState(true);
-  const documentHeight = () => {
-    const doc = document.documentElement;
-    doc.style.setProperty("--doc-height", `${window.innerHeight}px`);
-  };
-  window.addEventListener("resize", documentHeight);
-  documentHeight();
-  useEffect(() => {}, [loading]);
+  useEffect(() => {
+    loading
+      ? document.querySelector("body").classList.add("loading")
+      : document.querySelector("body").classList.remove("loading");
+  }, [loading]);
   return (
     <AnimatePresence mode="wait">
       {loading ? (

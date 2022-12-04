@@ -24,7 +24,7 @@ function ProjectsList() {
   return (
     <article className="flex flex-col" id="projects">
       {data.map((project) => (
-        <section key={project.slug} className="h-screen relative">
+        <section key={project.slug} className="h-screen mobile-screen relative">
           <Image
             src={project.cover}
             alt={project.description}

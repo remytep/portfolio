@@ -25,7 +25,6 @@ const projectVariant = {
 };
 
 function Project({ project }) {
-  const router = useRouter();
   const { t, lang } = useTranslation("home");
   const { locale } = useRouter();
   const [firstMedia, ...leftMedia] = project.medias;
