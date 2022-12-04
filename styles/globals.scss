@@ -21,6 +21,12 @@
     font-weight: 400;
     src: url("/fonts/FogtwoNo5.ttf");
   }
+  @font-face {
+    font-family: "NeutralFace";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/NeutralFace.otf");
+  }
   body {
     @apply bg-orange-100 text-stone-900 dark:bg-stone-900 dark:text-orange-100 transition-colors duration-700;
   }
@@ -31,6 +37,11 @@
     body {
       @apply bg-orange-100 text-stone-900 transition-colors duration-700;
     }
+  }
+}
+@layer utilities {
+  .w-18 {
+    width: 4.5rem;
   }
 }
 html,
@@ -44,20 +55,20 @@ body {
 
 body {
   min-height: 100vh;
-  min-height: fill-available;
   min-height: -webkit-fill-available;
+  min-height: stretch;
 }
 
 html {
-  min-height: fill-available;
   min-height: -webkit-fill-available;
+  min-height: stretch;
 }
 
 .mobile-screen {
   min-height: 100vh;
   min-height: -moz-available;
-  min-height: fill-available;
   min-height: -webkit-fill-available;
+  min-height: stretch;
 }
 
 a {
@@ -76,9 +87,9 @@ a {
 }
 
 .stacksvg {
-  @apply w-16 xl:w-20;
+  @apply w-10 sm:w-12 md:w-14 lg:w-16;
 }
 
 .contactsvg {
-  @apply w-12 xl:w-16;
+  @apply w-10 md:w-12 xl:w-14;
 }

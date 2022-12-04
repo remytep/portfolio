@@ -29,7 +29,7 @@ export default function App({ Component, pageProps, router }) {
             mode="wait"
             onExitComplete={() => {
               if (typeof window !== "undefined") {
-                window.scrollTo({ top: -1 });
+                window.scrollTo({ top: 0 });
               }
             }}
           >

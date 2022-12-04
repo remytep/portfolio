@@ -25,13 +25,6 @@ function ProjectsList() {
     <article className="flex flex-col" id="projects">
       {data.map((project) => (
         <section key={project.slug} className="h-screen mobile-screen relative">
-          <Image
-            src={project.cover}
-            alt={project.description}
-            priority
-            fill
-            className="object-cover object-center"
-          />
           <Link
             href={
               ({
@@ -45,9 +38,17 @@ function ProjectsList() {
             }
             /*   onClick={(e) => handleRouteChange(project.slug)} */
             scroll={false}
-            className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 font-SeawaveAlt text-center text-5xl md:text-7xl lg:text-8xl 2xl:text-9xl backdrop-blur-sm backdrop-grayscale bloc p-2"
           >
-            {project.title}
+            <Image
+              src={project.cover}
+              alt={project.description}
+              priority
+              fill
+              className="object-cover object-center"
+            />
+            <span className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 font-SeawaveAlt text-center text-5xl md:text-7xl lg:text-8xl 2xl:text-9xl backdrop-blur-sm backdrop-grayscale bloc p-2">
+              {project.title}
+            </span>
           </Link>
         </section>
       ))}

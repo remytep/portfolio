@@ -11,7 +11,7 @@ import useTranslation from "next-translate/useTranslation";
 // Variant
 const projectVariant = {
   hidden: {
-    y: "-100vh",
+    y: "100vh",
   },
   show: {
     y: 0,
@@ -46,6 +46,9 @@ function Project({ project }) {
             <h1 className="text-6xl lg:text-8xl font-SeawaveAlt text-center">
               {project.title}
             </h1>
+            <div className="font-SeawaveAlt text-2xl lg:text-4xl text-center">
+              {project.date}
+            </div>
             <div className="flex justify-center flex-1">
               {project.stack.map((lang) => (
                 <svg
@@ -61,13 +64,13 @@ function Project({ project }) {
                 </svg>
               ))}
             </div>
-            <div className="text-2xl lg:text-4xl text-justify flex-1 sm:container">
+            <div className="font-SeawaveAlt text-2xl lg:text-4xl text-justify flex-1 sm:container">
               {description}
             </div>
             <Link
               href={project.link}
               scroll={false}
-              className="text-2xl lg:text-4xl text-center underline"
+              className="font-SeawaveAlt text-2xl lg:text-4xl text-center underline"
             >
               {t("more")}
             </Link>

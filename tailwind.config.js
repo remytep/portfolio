@@ -13,6 +13,7 @@ module.exports = {
       fontFamily: {
         FogtwoNo5: ['"FogtwoNo5"', ...defaultTheme.fontFamily.serif],
         SeawaveAlt: ['"NTSeawaveAlt"', ...defaultTheme.fontFamily.serif],
+        NeutralFace: ['"NeutralFace"', ...defaultTheme.fontFamily.sans],
       },
       fontSize: {
         "10xl": [
@@ -41,6 +42,7 @@ module.exports = {
       width: {
         third: "33vw",
         half: "50vw",
+        18: "4.5rem",
       },
       height: {
         18: "4.5rem",
