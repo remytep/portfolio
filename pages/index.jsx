@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <Layout variant={homeVariant} className="">
       <ProjectsList />
-      <About apkey={"home"} />
+      {/*       <About apkey={"home"} /> */}
     </Layout>
   );
 }

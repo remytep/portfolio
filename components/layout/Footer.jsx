@@ -79,6 +79,7 @@ function Footer() {
       <div className="align-middle text-sm sm:text-md lg:text-lg">
         <Link
           href={slug ? slug : ""}
+          scroll={false}
           locale="en"
           className={` ${
             locale === "en"
@@ -92,6 +93,7 @@ function Footer() {
         <Link
           href={slug ? slug : ""}
           locale="fr"
+          scroll={false}
           className={`${
             locale === "fr"
               ? "text-stone-900 dark:text-orange-100"
