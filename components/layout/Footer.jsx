@@ -76,32 +76,16 @@ function Footer() {
       animate="show"
       className="fixed bottom-0 left-0 z-10 px-4 py-2 lg:py-4 md:px-6 lg:px-10 flex justify-between items-center w-screen"
     >
-      <div className="align-middle text-sm sm:text-md lg:text-lg">
-        <Link
-          href={slug ? slug : ""}
-          scroll={false}
-          locale="en"
-          className={` ${
-            locale === "en"
-              ? "text-stone-900 dark:text-orange-100"
-              : "text-gray-300 dark:text-gray-600"
-          }`}
-        >
-          EN
-        </Link>
-        <span className="mx-1 text-lg lg:text-2xl">|</span>
-        <Link
-          href={slug ? slug : ""}
-          locale="fr"
-          scroll={false}
-          className={`${
-            locale === "fr"
-              ? "text-stone-900 dark:text-orange-100"
-              : "text-gray-300 dark:text-gray-600"
-          }`}
-        >
-          FR
-        </Link>
+      <div className="text-xl sm:text-2xl lg:text-3xl">
+        {locale === "en" ? (
+          <Link href={slug ? slug : ""} locale="fr" scroll={false}>
+            EN
+          </Link>
+        ) : (
+          <Link href={slug ? slug : ""} scroll={false} locale="en">
+            FR
+          </Link>
+        )}
       </div>
       {renderThemeChanger()}
     </motion.footer>
