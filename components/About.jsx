@@ -3,7 +3,7 @@ import useTranslation from "next-translate/useTranslation";
 import Link from "next/link";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import heroImg from "../public/static/images/hero.jpg";
+import heroImg from "../public/static/images/remytep.jpg";
 
 // Variant
 const programmingStack = {
