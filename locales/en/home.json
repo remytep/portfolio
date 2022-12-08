@@ -9,6 +9,8 @@
     "mtn-snaps_en" : "This project is a snapchat clone made in React Native with the help of an in-house API that handles the back-end. Interface includes a fully functional application that will allow you to register as well as send and receive snaps from other users.",
     "ocr_en" : "An online chat service with rooms and private messenging made with Node.js/Express and React (with socket.io).",
     "spotitech_en" : "Online application to discover new artists and listen to their albums. Made with a symfony API and React for the front-end.",
-    "cinema_en": "Website to manage users and customers of a cinema theater. Back is handled with PHP and front-end with vanilla JS"
+    "cinema_en": "Website to manage users and customers of a cinema theater. Back is handled with PHP and front-end with vanilla JS.",
+    "battle_en": "A two-player card game made in vanilla JS.",
+    "portfolio_en" : "This very website ! Made with NEXT.js and its source code is available on my github !"
 
 }
