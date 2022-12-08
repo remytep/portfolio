@@ -1,5 +1,4 @@
-@media (pointer: fine) {
-  // this css will only be used when the screen size is min 800px
+@media (pointer: fine) and (max-wdith: 680px) {
   .main-cursor,
   .secondary-cursor {
     z-index: 10000;
