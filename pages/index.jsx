@@ -23,7 +23,7 @@ const homeVariant = {
 
 export default function Home() {
   return (
-    <Layout variant={homeVariant} className="">
+    <Layout variant={homeVariant}>
       <ProjectsList />
       {/*       <About apkey={"home"} /> */}
     </Layout>

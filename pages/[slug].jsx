@@ -34,7 +34,7 @@ function Project({ project }) {
   if (!project) return null;
   return (
     <Layout variant={projectVariant} className="flex h-screen absolute">
-      <motion.div className="flex flex-col relative w-screen">
+      <motion.div className="flex flex-col relative w-full">
         <motion.img
           key={`single-img-` + project.slug}
           className="object-cover object-center h-screen"

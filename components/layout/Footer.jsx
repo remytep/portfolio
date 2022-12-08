@@ -74,7 +74,7 @@ function Footer() {
       variants={footerVariant}
       initial="hidden"
       animate="show"
-      className="fixed bottom-0 left-0 z-10 px-4 py-2 lg:py-4 md:px-6 lg:px-10 flex justify-between items-center w-screen"
+      className="fixed bottom-0 left-0 z-10 px-4 py-2 lg:py-4 md:px-6 lg:px-10 flex justify-between items-center w-full"
     >
       <div className="text-xl sm:text-2xl lg:text-3xl">
         {locale === "en" ? (

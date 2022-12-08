@@ -23,7 +23,7 @@ const Navbar = () => {
       variants={navVariant}
       initial="hidden"
       animate="show"
-      className="fixed top-0 left-0 z-10 px-4 py-2 lg:py-4 md:px-6 lg:px-10 w-screen bg-transparent flex font-SeawaveAlt text-4xl sm:text-5xl md:text-6xl lg:text-7xl justify-between"
+      className="fixed top-0 left-0 z-10 px-4 py-2 lg:py-4 md:px-6 lg:px-10 w-full bg-transparent flex font-SeawaveAlt text-4xl sm:text-5xl md:text-6xl lg:text-7xl justify-between"
     >
       <div className="flex-2">
         <Link

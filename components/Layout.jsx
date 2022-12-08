@@ -10,7 +10,7 @@ function Layout({ variant, className, children }) {
       initial="hidden"
       animate="show"
       exit="exit"
-      className={`${className}` + " w-screen"}
+      className={`${className}` + " w-full"}
     >
       {children}
     </motion.main>

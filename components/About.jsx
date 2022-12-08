@@ -43,7 +43,7 @@ function About({ apkey }) {
     <motion.div
       key={apkey}
       id="about"
-      className="flex flex-col absolute lg:flex-row h-screen max-h-screen w-screen mobile-screen py-12 md:py-20 lg:py-24 xl:py-28 px-4 md:px-6 lg:px-10"
+      className="flex flex-col absolute lg:flex-row h-screen max-h-screen w-full mobile-screen py-12 md:py-20 lg:py-24 xl:py-28 px-4 md:px-6 lg:px-10"
     >
       <div className="flex-1 hidden lg:block">
         <Image
