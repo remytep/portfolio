@@ -7,7 +7,7 @@ export let data = [
     date: "May 2022",
     medias: [{ url: "/static/images/projects/sprite.jpg" }],
     stack: ["Php"],
-    link: "http://github.com/tepremy",
+    link: "http://github.com/remytep",
   },
   {
     slug: "mtn-snaps",
@@ -18,7 +18,7 @@ export let data = [
     date: "September 2022",
     medias: [{ url: "/static/images/projects/snapchat.jpg" }],
     stack: ["ReactJS"],
-    link: "http://github.com/tepremy",
+    link: "http://github.com/remytep",
   },
   {
     slug: "ocr",
@@ -28,7 +28,7 @@ export let data = [
     date: "October 2022",
     medias: [{ url: "/static/images/projects/irc.jpg" }],
     stack: ["Javascript", "ReactJS", "Node", "Express"],
-    link: "http://github.com/tepremy",
+    link: "http://github.com/remytep",
   },
   {
     slug: "spotitech",
@@ -38,7 +38,7 @@ export let data = [
     date: "June 2022",
     medias: [{ url: "/static/images/projects/spotify.jpg" }],
     stack: ["Symfony", "ReactJS"],
-    link: "http://github.com/tepremy",
+    link: "http://github.com/remytep",
   },
   {
     slug: "cinema",
@@ -48,6 +48,6 @@ export let data = [
     date: "May 2022",
     medias: [{ url: "/static/images/projects/cinema.jpg" }],
     stack: ["Javascript", "Php"],
-    link: "http://github.com/tepremy",
+    link: "http://github.com/remytep",
   },
 ];

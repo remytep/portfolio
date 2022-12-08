@@ -66,7 +66,11 @@ function Project({ project }) {
           <div className="font-NeutralFace py-1 md:py-2 xl:py-4 text-2xl lg:text-4xl md:text-justify w-full">
             {description}
           </div>
-          <Link href={project.link} className="flex justify-center">
+          <Link
+            href={project.link}
+            target="_blank"
+            className="flex justify-center"
+          >
             <motion.svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 128 128"
