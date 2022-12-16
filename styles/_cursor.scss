@@ -53,13 +53,13 @@
   }
 }
 
-@media only screen and (max-device-width: 480px) and (orientation: portrait) and (hover: none) and (pointer: coarse) {
+@media only screen and (max-device-width: 800px) and (orientation: portrait) and (hover: none) and (pointer: coarse) {
   .cursor-wrapper {
     display: none !important;
   }
 }
-@media screen and (max-device-width: 640px) and (orientation: landscape) and (hover: none) and (pointer: coarse) {
+@media screen and (max-device-width: 800px) and (orientation: landscape) and (hover: none) and (pointer: coarse) {
   .cursor-wrapper {
-    display: non !important;
+    display: none !important;
   }
 }
