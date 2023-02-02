@@ -11,5 +11,7 @@
     "spotitech_fr" : "Application en ligne pour découvrir la discographie de certains artistes et écouter leurs morceaux. Réalisé en React avec une API Symfony pour le back.",
     "cinema_fr": "Site de gestion des membres et clients d'un cinéma réalisé en PHP pour le back et Vanilla JS en front.",
     "battle_fr": "Le jeu de la bataille corse fait en JavaScript.",
-    "portfolio_fr" : "Ce même site que vous êtes en train de visiter ! Réalisé avec NEXT.js. Son code source est disponible sur mon github."
+    "portfolio_fr" : "Ce même site que vous êtes en train de visiter ! Réalisé avec NEXT.js. Son code source est disponible sur mon github.",
+    "minga-ecommerce_fr" : "Site de e-commerce de bureautique et de bureau réglable realisé en collaboration avec 3 camarades de classe. L'API interne est réalisée avec Symfony et une BDD MySQL, le front avec ReactJS et TailwindCSS. Le système de paiement est géré via Stripe.",
+    "eventify_fr" : "Site qui liste les évènements qui sont organisés autour de vous. Vous pouvez créer des \"hangouts\" et inviter vos amis pour qu'ils vous rejoignent à cet évènement. Chattez avec eux sur le mur du hangout pour décider de l'heure à laquelle vous vous retrouvez !"
 }

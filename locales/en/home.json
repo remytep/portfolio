@@ -11,6 +11,8 @@
     "spotitech_en" : "Online application to discover new artists and listen to their albums. Made with a symfony API and React for the front-end.",
     "cinema_en": "Website to manage users and customers of a cinema theater. Back is handled with PHP and front-end with vanilla JS.",
     "battle_en": "A two-player card game made in vanilla JS.",
-    "portfolio_en" : "This very website ! Made with NEXT.js and its source code is available on my github !"
+    "portfolio_en" : "This very website ! Made with NEXT.js and its source code is available on my github !",
+    "minga-ecommerce_en" : "An E-commerce website that sells standing desk and bureautic accessories. The techs used are Symfony for the back-end API (user and product stock handling), React.JS/Tailwind for the front-end and Stripe for the payment system. Made with 3 classmates.",
+    "eventify_en" : "A mobile-first app that shows you the public events around you. You can organize hangouts linked to these events, and invite your friends to join you. Use the hangout wall to chat with them and choose a meetup time !"
 
 }
